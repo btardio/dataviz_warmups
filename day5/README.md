@@ -19,7 +19,9 @@ Reverse the letters of the words racecar, gregory and rotavator.
 
 Determine if the word is a palindrome. A palindrome is a word that is spelled the same way backwards.
 
-
+Hint: range() can be used in reverse order specifying -1 as the step (the third argument to the function)
+      the length of a string can be determined using len()
+      
 #### Exercise 3 - Valid Phone Number
 
 For the phone numbers listed print the phone number and then print YES if it is a valid phone number or NO if it is not a valid number.
