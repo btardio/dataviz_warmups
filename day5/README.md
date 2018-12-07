@@ -15,7 +15,7 @@ WELCOME
 
 #### Exercise 2 - Palindrome Detection
 
-Reverse the letters of the words racecar, gregory, nomenclature, repaper and rotavator.
+Reverse the letters of the words racecar, gregory and rotavator.
 
 Determine if the word is a palindrome. A palindrome is a word that is spelled the same way backwards.
 
