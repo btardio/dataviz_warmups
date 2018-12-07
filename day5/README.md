@@ -12,6 +12,13 @@ WELCOME
 ---*---
 ```
 
+Hint: Using += with a string will concatenate to the end of a string. IE: 
+
+```
+a = 'dog'
+a += 's'
+print(a) # prints: > dogs
+```
 
 #### Exercise 2 - Palindrome Detection
 
@@ -24,14 +31,16 @@ Hint: range() can be used in reverse order specifying -1 as the step (the third 
       
 #### Exercise 3 - Valid Phone Number
 
-For the phone numbers listed print the phone number and then print YES if it is a valid phone number or NO if it is not a valid number.
+Create an encoding which changes every character of a string into the next character of the alphabet. For example, a would become b. Don't worry about z and Z. Use the following words: 
 
-```
-8181123322
-310222100
-3231112222
-80002121222
-```
+whisk
+fresh
+chop
+
+ex: 'bad' would become 'cbe' 
+
+Hint: ord() gives the numerical value of a character. chr() converts a number into a character.
+      Characters of a string can be accessed using array notation, "bad"[0] = 'b'
 
 #### Extra - Numerical Accuracy
 
