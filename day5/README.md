@@ -29,7 +29,7 @@ Determine if the word is a palindrome. A palindrome is a word that is spelled th
 Hint: range() can be used in reverse order specifying -1 as the step (the third argument to the function)
       the length of a string can be determined using len()
       
-#### Exercise 3 - Valid Phone Number
+#### Exercise 3 - Simple Cryptex
 
 Create an encoding which changes every character of a string into the next character of the alphabet. For example, a would become b. Don't worry about z and Z. Use the following words: 
 
