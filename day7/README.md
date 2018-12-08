@@ -20,6 +20,12 @@ Find the number of lines that are different between two files. The first line of
 
 Expected Output: 5
 
+FileA:
+https://github.com/btardio/dataviz_warmups/blob/master/day7/fileA.txt
+
+FileB:
+https://github.com/btardio/dataviz_warmups/blob/master/day7/fileB.txt
+
 ## Exercise 3 - File I/O with matrices
 
 A square matrix can be represented by a list.
@@ -109,11 +115,16 @@ matC = convertFileToList('matrixC.txt')
 matD = convertFileToList('matrixD.txt')
 
 assert(matrixadd(matC, matD) == [[1,1,1],[1,1,1],[1,1,1]])
+```
 
+Starter File:
+https://github.com/btardio/dataviz_warmups/blob/master/day7/warm-up-day-5-ex3-starter.py
 
-
-
-
+Matrix Files:
+https://github.com/btardio/dataviz_warmups/blob/master/day7/matrixA.txt
+https://github.com/btardio/dataviz_warmups/blob/master/day7/matrixB.txt
+https://github.com/btardio/dataviz_warmups/blob/master/day7/matrixC.txt
+https://github.com/btardio/dataviz_warmups/blob/master/day7/matrixD.txt
 
 
 
