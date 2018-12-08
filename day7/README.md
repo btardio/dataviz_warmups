@@ -18,6 +18,7 @@ Expected Output: 4
 
 Find the number of lines that are different between two files. The first line of the file indicates how many lines are in the file. You can safely assume that the number of lines in both files are equal.
 
+Expected Output: 5
 
 ## Exercise 3 - File I/O with matrices
 
