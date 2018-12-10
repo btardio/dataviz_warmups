@@ -16,7 +16,7 @@ Separate the new numbering system into 'RRGGBB' and create three columns for eac
 010201
 010200
 020102
-020000
+020200
 
 Since a picture can't have any more than two colors per unique red-green and red-blue starting string, determine which 'red-green' or 'red-blue' combinations need reduced.
 
