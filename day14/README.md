@@ -16,9 +16,9 @@ https://www.googleapis.com/books/v1/volumes?isbn=
 
 Using the searchcode API <https://searchcode.com/api/> with the following query, which searches for '()', list the number of unique languages of entries of the first 5 pages.
 
-``
+```
 https://searchcode.com/?q=%28%29
-``
+```
 
 
 ## Exercise 3 - Timing APIs
