@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
-
 import requests
 import pandas as pd
 import settings
@@ -25,11 +21,7 @@ dfd = {
 # create the dataframe
 df = pd.DataFrame(dfd)
 
-df
-
-
-# In[ ]:
-
+print(df)
 
 
 
