@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
 import  requests
 import json
 import imp
@@ -25,10 +22,4 @@ r = requests.get(url, params = params, headers = {'app_id' : settings.app_id, 'a
 print("code {}\n".format(r.status_code))
 print("text \n" + r.text)
 print("json \n" + json.dumps(r.json()))
-
-
-# In[ ]:
-
-
-
 
