@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[17]:
-
-
-
 import  requests
 import json
 import imp
@@ -21,10 +17,4 @@ r = requests.get(url, params = params, headers = {'X-API-KEY' : settings.upc_key
 print("code {}\n".format(r.status_code))
 
 print("json \n" + json.dumps(r.json()))
-
-
-# In[ ]:
-
-
-
 
