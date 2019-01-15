@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import unittest
 
 class TestBasicMath(unittest.TestCase):
@@ -23,10 +20,6 @@ def createSuite( testadd = True, testsub = True, testmul = True, testdiv = True 
 
 runner = unittest.TextTestRunner()
 
-
-# In[2]:
-
-
 d = { 
       'testadd': False,
       'testdiv': False
@@ -35,17 +28,9 @@ d = {
 l = [ True, False, False, True ]
 
 
-# In[3]:
-
-
 s0 = createSuite(*l)
 
 runner.run(s0)
-    
-
-
-# In[4]:
-
 
 s1 = createSuite(**d)
 
