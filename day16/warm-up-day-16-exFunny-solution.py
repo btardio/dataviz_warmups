@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
-
 from threading import Thread
 from time import sleep
 from random import uniform
@@ -83,21 +80,6 @@ while(True):
         break
     except ImDepressed as e:
         print ( str(e.__class__.__name__) + ': ' + str(e) )
-
-
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
